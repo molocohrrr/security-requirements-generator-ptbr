@@ -7,8 +7,8 @@
             <a href='/' class="d-flex align-items-center top-link">
               <img src="@/assets/img/logo.svg" alt="logo">
               <div class="ml-3 logo-text d-none d-md-block">
-                <div class="logo-title">Whitespots.io</div>
-                <div class="logo-subtitle">{{ $t('Security requirements generator') }}</div>
+                <div class="logo-title">BR Spots</div>
+                <div class="logo-subtitle">Gerador de Requisitos de Segurança</div>
               </div>
             </a>
             <div class="d-flex align-items-center" v-for="additionalLogo in additionalLogos">
@@ -20,7 +20,7 @@
           <div class="d-flex align-items-center mb-1">
             <div class="mb-1">
               <span class="languges" :class="{ 'languges-active': $i18n.locale === 'en' }" @click="selectLang('en')">EN</span>
-              <span class="languges" :class="{ 'languges-active': $i18n.locale === 'ru' }" @click="selectLang('ru')">RU</span>
+              <span class="languges" :class="{ 'languges-active': $i18n.locale === 'ru' }" @click="selectLang('ru')">BR</span>
             </div>
             <div class="d-none d-md-block" v-for="button in assessmentButton">
               <a :href="button.button_link" target="_blank" class="btn-outline-red pt-1 pb-1">{{ button.button_value }}</a>
