@@ -5,10 +5,10 @@
     "fields": {
       "name": "Admin actions",
       "name_en": "Admin actions",
-      "name_ru": "Администрирование",
+      "name_ru": "Ações administrativas",
       "summary": "Critical actions/bulk data import/export",
       "summary_en": "Critical actions/bulk data import/export",
-      "summary_ru": "Критичные действия/массовый импорт/экспорт данных",
+      "summary_ru": "Ações críticas/importação/exportação em massa de dados",
       "show_at_home": true,
       "is_default": false,
       "order": 5
@@ -20,25 +20,24 @@
     "fields": {
       "name": "Search engine indexation",
       "name_en": "Search engine indexation",
-      "name_ru": "Поисковая индексация",
+      "name_ru": "Indexação de motores de busca",
       "summary": "Your app pages are listed in google",
       "summary_en": "Your app pages are listed in google",
-      "summary_ru": "Страницы вашего приложения индексируются поисковыми роботами",
+      "summary_ru": "As páginas do seu aplicativo são listadas no Google",
       "show_at_home": true,
       "is_default": false,
       "order": 7
     }
-  },
-  {
+  },{
     "model": "requirement.category",
     "pk": 8,
     "fields": {
       "name": "Files upload",
       "name_en": "Files upload",
-      "name_ru": "Загрузка файлов",
+      "name_ru": "Upload de arquivos",
       "summary": "Files upload functionality",
       "summary_en": "Files upload functionality",
-      "summary_ru": "Функционал загрузки файлов",
+      "summary_ru": "Funcionalidade de upload de arquivos",
       "show_at_home": true,
       "is_default": false,
       "order": 8
@@ -65,10 +64,10 @@
     "fields": {
       "name": "Authentication",
       "name_en": "Authentication",
-      "name_ru": "Аутентификация",
+      "name_ru": "Autenticação",
       "summary": "Your app has users",
       "summary_en": "Your app has users",
-      "summary_ru": "У приложения есть пользователи",
+      "summary_ru": "Seu aplicativo tem usuários",
       "show_at_home": true,
       "is_default": false,
       "order": 10
@@ -80,10 +79,10 @@
     "fields": {
       "name": "Authorization",
       "name_en": "Authorization",
-      "name_ru": "Авторизация",
+      "name_ru": "Autorização",
       "summary": "Your users have different set of permissions",
       "summary_en": "Your users have different set of permissions",
-      "summary_ru": "У ваших пользователей разный набор привилегий",
+      "summary_ru": "Seus usuários têm diferentes conjuntos de permissões",
       "show_at_home": true,
       "is_default": false,
       "order": 11
@@ -95,10 +94,10 @@
     "fields": {
       "name": "General backend requirements",
       "name_en": "General backend requirements",
-      "name_ru": "Общие требования для бэкенда",
+      "name_ru": "Requisitos gerais de backend",
       "summary": "General backend requirements",
       "summary_en": "General backend requirements",
-      "summary_ru": "Общие требования для бэкенда",
+      "summary_ru": "Requisitos gerais de backend",
       "show_at_home": true,
       "is_default": true,
       "order": 12
@@ -110,10 +109,10 @@
     "fields": {
       "name": "Personal data",
       "name_en": "Personal data",
-      "name_ru": "Обработка персональных данных",
-      "summary": "If there is a personal data in application.",
-      "summary_en": "If there is a personal data in application.",
-      "summary_ru": "Если в приложении есть обработка персональных данных.",
+      "name_ru": "Dados pessoais",
+      "summary": "If there is personal data in the application.",
+      "summary_en": "If there is personal data in the application.",
+      "summary_ru": "Se há dados pessoais no aplicativo.",
       "show_at_home": true,
       "is_default": false,
       "order": 13
@@ -125,10 +124,10 @@
     "fields": {
       "name": "User Input",
       "name_en": "User Input",
-      "name_ru": "Пользовательский ввод",
-      "summary": "If there is a user input in application.",
-      "summary_en": "If there is a user input in application.",
-      "summary_ru": "Если в приложении присутствует обработка пользовательского ввода.",
+      "name_ru": "Entrada do usuário",
+      "summary": "If there is user input in the application.",
+      "summary_en": "If there is user input in the application.",
+      "summary_ru": "Se há entrada de usuário no aplicativo.",
       "show_at_home": true,
       "is_default": false,
       "order": 14
@@ -140,10 +139,10 @@
     "fields": {
       "name": "Internal services integration",
       "name_en": "Internal services integration",
-      "name_ru": "Интеграции с внутренними сервисами",
+      "name_ru": "Integração com serviços internos",
       "summary": "If application have integration with company internal services.",
       "summary_en": "If application have integration with company internal services.",
-      "summary_ru": "Если приложение интегрируется с внутренними сервисами компании.",
+      "summary_ru": "Se o aplicativo tem integração com os serviços internos da empresa.",
       "show_at_home": true,
       "is_default": false,
       "order": 15
@@ -155,10 +154,10 @@
     "fields": {
       "name": "External services integration",
       "name_en": "External services integration",
-      "name_ru": "Интеграции с внешними сервисами",
+      "name_ru": "Integração com serviços externos",
       "summary": "If application have integration with external services outside the company.",
       "summary_en": "If application have integration with external services outside the company.",
-      "summary_ru": "Если приложение интегрируется с внешними сервисами за пределами компании.",
+      "summary_ru": "Se o aplicativo tem integração com serviços externos fora da empresa.",
       "show_at_home": true,
       "is_default": false,
       "order": 16
@@ -170,10 +169,10 @@
     "fields": {
       "name": "Mobile Application Integrations",
       "name_en": "Mobile Application Integrations",
-      "name_ru": "Интеграция в мобильное приложение",
+      "name_ru": "Integração no aplicativo móvel",
       "summary": "If there is a integrations in the mobile application.",
       "summary_en": "If there is a integrations in the mobile application.",
-      "summary_ru": "Если есть интеграции в мобильное приложение.",
+      "summary_ru": "Se há integrações no aplicativo móvel.",
       "show_at_home": false,
       "is_default": false,
       "order": 17
@@ -185,10 +184,10 @@
     "fields": {
       "name": "Transactions (Money)",
       "name_en": "Transactions (Money)",
-      "name_ru": "Работа с транзакциями (деньги)",
+      "name_ru": "Transações (Dinheiro)",
       "summary": "If the application uses functionality that involves the use of money.",
       "summary_en": "If the application uses functionality that involves the use of money.",
-      "summary_ru": "Если в приложении есть функционал, связанный с каким-либо использованием денег.",
+      "summary_ru": "Se o aplicativo possui funcionalidades que envolvem o uso de dinheiro.",
       "show_at_home": false,
       "is_default": false,
       "order": 19
@@ -200,10 +199,10 @@
     "fields": {
       "name": "Cryptography",
       "name_en": "Cryptography",
-      "name_ru": "Криптография",
+      "name_ru": "Criptografia",
       "summary": "If the application uses any kind of cryptography.",
       "summary_en": "If the application uses any kind of cryptography.",
-      "summary_ru": "Если в приложении используется криптография.",
+      "summary_ru": "Se o aplicativo usa algum tipo de criptografia.",
       "show_at_home": true,
       "is_default": false,
       "order": 20
@@ -215,10 +214,10 @@
     "fields": {
       "name": "Logging and monitoring",
       "name_en": "Logging and monitoring",
-      "name_ru": "Логирование и мониторинг",
-      "summary": "Security recommendations for creating logging and monitoring  mechanism.",
-      "summary_en": "Security recommendations for creating logging and monitoring  mechanism.",
-      "summary_ru": "Рекомендации по созданию безопасного механизма логирования и мониторинга.",
+      "name_ru": "Registro e monitoramento",
+      "summary": "Security recommendations for creating logging and monitoring mechanism.",
+      "summary_en": "Security recommendations for creating logging and monitoring mechanism.",
+      "summary_ru": "Recomendações de segurança para criação de um mecanismo de registro e monitoramento.",
       "show_at_home": true,
       "is_default": false,
       "order": 21
@@ -230,10 +229,10 @@
     "fields": {
       "name": "Business logic",
       "name_en": "Business logic",
-      "name_ru": "Бизнес-логика",
+      "name_ru": "Lógica de negócios",
       "summary": "Common recommendations for eliminating vulnerabilities in the business logic of the application.",
       "summary_en": "Common recommendations for eliminating vulnerabilities in the business logic of the application.",
-      "summary_ru": "Общие рекомендации по устранению уязвимых мест в бизнес-логике приложения.",
+      "summary_ru": "Recomendações comuns para eliminar vulnerabilidades na lógica de negócios do aplicativo.",
       "show_at_home": true,
       "is_default": false,
       "order": 22
@@ -245,10 +244,10 @@
     "fields": {
       "name": "Passwords",
       "name_en": "Passwords",
-      "name_ru": "Пароли",
+      "name_ru": "Senhas",
       "summary": "General recommendations for password functionality.",
       "summary_en": "General recommendations for password functionality.",
-      "summary_ru": "Общие рекомендации для механизма паролей.",
+      "summary_ru": "Recomendações gerais para a funcionalidade de senhas.",
       "show_at_home": true,
       "is_default": false,
       "order": 24
@@ -260,10 +259,10 @@
     "fields": {
       "name": "Files storage",
       "name_en": "Files storage",
-      "name_ru": "Хранение файлов",
+      "name_ru": "Armazenamento de arquivos",
       "summary": "Recommendations for implementing a secure mechanism for storing user / service data.",
       "summary_en": "Recommendations for implementing a secure mechanism for storing user / service data.",
-      "summary_ru": "Рекомендации по реализации безопасного механизма хранения пользовательских/служебных данных.",
+      "summary_ru": "Recomendações para implementar um mecanismo seguro de armazenamento de dados de usuários/serviços.",
       "show_at_home": true,
       "is_default": false,
       "order": 25
@@ -275,10 +274,10 @@
     "fields": {
       "name": "Sensitive data",
       "name_en": "Sensitive data",
-      "name_ru": "Важные данные",
+      "name_ru": "Dados sensíveis",
       "summary": "Recommendations for safe handling of sensitive data.",
       "summary_en": "Recommendations for safe handling of sensitive data.",
-      "summary_ru": "Рекомендации по безопасной работе с особо важными данными.",
+      "summary_ru": "Recomendações para o manuseio seguro de dados sensíveis.",
       "show_at_home": true,
       "is_default": false,
       "order": 27
@@ -290,10 +289,10 @@
     "fields": {
       "name": "Build and Deployment",
       "name_en": "Build and Deployment",
-      "name_ru": "Сборка и развертывание",
+      "name_ru": "Compilação e implantação",
       "summary": "Recommendations for Secure Build and Deployment.",
       "summary_en": "Recommendations for Secure Build and Deployment.",
-      "summary_ru": "Рекомендации по безопасной сборке и развертыванию.",
+      "summary_ru": "Recomendações para uma compilação e implantação seguras.",
       "show_at_home": true,
       "is_default": false,
       "order": 28
@@ -305,13 +304,13 @@
     "fields": {
       "title": "2FA for administrators is set",
       "title_en": "2FA for administrators is set",
-      "title_ru": "Второй фактор включен для администраторов",
+      "title_ru": "Autenticação de dois fatores para administradores está ativada",
       "summary": "Administrative interfaces use multi-factor authentication to prevent unauthorized use",
       "summary_en": "Administrative interfaces use multi-factor authentication to prevent unauthorized use",
-      "summary_ru": "Административные интерфейсы используют многофакторную аутентификацию для предотвращения несанкционированного использования",
+      "summary_ru": "Interfaces administrativas usam autenticação multifator para evitar uso não autorizado",
       "text": "Administrative interfaces use multi-factor authentication to prevent unauthorized use",
       "text_en": "Administrative interfaces use multi-factor authentication to prevent unauthorized use",
-      "text_ru": "Административные интерфейсы используют многофакторную аутентификацию для предотвращения несанкционированного использования",
+      "text_ru": "Interfaces administrativas usam autenticação multifator para evitar uso não autorizado",
       "order": 0,
       "is_default": false,
       "categories": [
@@ -327,13 +326,13 @@
     "fields": {
       "title": "Authentication is enabled for administrative interfaces",
       "title_en": "Authentication is enabled for administrative interfaces",
-      "title_ru": "Включена аутентификация для административных интерфейсов",
+      "title_ru": "Autenticação está ativada para interfaces administrativas",
       "summary": "Access to administration and management functions must be limited to authorized administrators",
       "summary_en": "Access to administration and management functions must be limited to authorized administrators",
-      "summary_ru": "Доступ к административным интерфейсам и функциям должен быть только у авторизованных администраторов",
+      "summary_ru": "O acesso às funções de administração e gerenciamento deve ser restrito a administradores autorizados",
       "text": "Access to administration and management functions must be limited to authorized administrators",
       "text_en": "Access to administration and management functions must be limited to authorized administrators",
-      "text_ru": "Доступ к административным интерфейсам и функциям должен быть только у авторизованных администраторов",
+      "text_ru": "O acesso às funções de administração e gerenciamento deve ser restrito a administradores autorizados",
       "order": 0,
       "is_default": false,
       "categories": [
@@ -350,13 +349,13 @@
     "fields": {
       "title": "App uses unique default accounts",
       "title_en": "App uses unique default accounts",
-      "title_ru": "Приложение использует уникальные стандартные аккаунты",
+      "title_ru": "O aplicativo usa contas padrão únicas",
       "summary": "Shared or default accounts are not present (e.g. \"root\", \"admin\", or \"sa\" that you can use somewhere else).",
       "summary_en": "Shared or default accounts are not present (e.g. \"root\", \"admin\", or \"sa\" that you can use somewhere else).",
-      "summary_ru": "Общие/стандартные аккаунты не используются (прим. \"root\", \"admin\", или \"sa\" которые вы можете использовать где-либо ещё)",
+      "summary_ru": "Contas compartilhadas ou padrão não estão presentes (ex: \"root\", \"admin\" ou \"sa\" que você pode usar em outro lugar).",
       "text": "Shared or default accounts are not present (e.g. \"root\", \"admin\", or \"sa\" that you can use somewhere else).",
       "text_en": "Shared or default accounts are not present (e.g. \"root\", \"admin\", or \"sa\" that you can use somewhere else).",
-      "text_ru": "Общие/стандартные аккаунты не используются (прим. \"root\", \"admin\", или \"sa\" которые вы можете использовать где-либо ещё)",
+      "text_ru": "Contas compartilhadas ou padrão não estão presentes (ex: \"root\", \"admin\" ou \"sa\" que você pode usar em outro lugar).",
       "order": 0,
       "is_default": false,
       "categories": [
@@ -374,13 +373,13 @@
     "fields": {
       "title": "Administrator registration is disabled",
       "title_en": "Administrator registration is disabled",
-      "title_ru": "Отключена регистрация в качестве администратора",
+      "title_ru": "O registro de administradores está desativado",
       "summary": "There is no way to register as administrator",
       "summary_en": "There is no way to register as administrator",
-      "summary_ru": "Нет способа зарегистрироваться как администратор",
+      "summary_ru": "Não há como se registrar como administrador",
       "text": "There is no way to register as administrator",
       "text_en": "There is no way to register as administrator",
-      "text_ru": "Нет способа зарегистрироваться как администратор",
+      "text_ru": "Não há como se registrar como administrador",
       "order": 0,
       "is_default": false,
       "categories": [
@@ -398,13 +397,13 @@
     "fields": {
       "title": "Admin functions are moved to another microservice",
       "title_en": "Admin functions are moved to another microservice",
-      "title_ru": "Административный функционал вынесен в отдельный микросервис",
+      "title_ru": "Funções administrativas foram movidas para outro microsserviço",
       "summary": "Admin functions are moved to another microservice",
       "summary_en": "Admin functions are moved to another microservice",
-      "summary_ru": "Административный функционал вынесен в отдельный микросервис",
+      "summary_ru": "Funções administrativas foram movidas para outro microsserviço",
       "text": "Admin functions are moved to another microservice",
       "text_en": "Admin functions are moved to another microservice",
-      "text_ru": "Административный функционал вынесен в отдельный микросервис",
+      "text_ru": "Funções administrativas foram movidas para outro microsserviço",
       "order": 0,
       "is_default": false,
       "categories": [
@@ -420,13 +419,13 @@
     "fields": {
       "title": "Limits are set",
       "title_en": "Limits are set",
-      "title_ru": "Установлены лимиты",
-      "summary": "* The application has appropriate limits for **specific business actions or transactions** which are correctly enforced on a per user basis. (Rate limits + Logical/global limits)\r\n* The application has sufficient anti-automation controls to detect and protect against data exfiltration, excessive business logic requests, excessive file uploads or denial of service attacks. (Anti DDOS/ReCaptcha/hCaptcha..)",
-      "summary_en": "* The application has appropriate limits for **specific business actions or transactions** which are correctly enforced on a per user basis. (Rate limits + Logical/global limits)\r\n* The application has sufficient anti-automation controls to detect and protect against data exfiltration, excessive business logic requests, excessive file uploads or denial of service attacks. (Anti DDOS/ReCaptcha/hCaptcha..)",
-      "summary_ru": "* Приложение имеет лимиты **для отдельных бизнес процессов или транзакций**, которые выполняются для каждого пользователя отдельно. \r\n* В приложении реализованы лимиты для обнаружения и защиты от автоматизированных атак по типу фильтрации данных, чрезмерного обращения к процессам бизнес логики, чрезмерной загрузки файлов или DOS (Anti DDOS/ReCaptcha/hCaptcha..)",
-      "text": "* The application has appropriate limits for **specific business actions or transactions** which are correctly enforced on a per user basis. (Rate limits + Logical/global limits)\r\n* The application has sufficient anti-automation controls to detect and protect against data exfiltration, excessive business logic requests, excessive file uploads or denial of service attacks. (Anti DDOS/ReCaptcha/hCaptcha..)",
-      "text_en": "* The application has appropriate limits for **specific business actions or transactions** which are correctly enforced on a per user basis. (Rate limits + Logical/global limits)\r\n* The application has sufficient anti-automation controls to detect and protect against data exfiltration, excessive business logic requests, excessive file uploads or denial of service attacks. (Anti DDOS/ReCaptcha/hCaptcha..)",
-      "text_ru": "* Приложение имеет лимиты **для отдельных бизнес процессов или транзакций**, которые выполняются для каждого пользователя отдельно. \r\n* В приложении реализованы лимиты для обнаружения и защиты от автоматизированных атак по типу фильтрации данных, чрезмерного обращения к процессам бизнес логики, чрезмерной загрузки файлов или DOS (Anti DDOS/ReCaptcha/hCaptcha..)",
+      "title_ru": "Limites definidos",
+      "summary": "O aplicativo possui limites apropriados para **ações ou transações de negócios específicas**, que são corretamente aplicados por usuário. (Limites de taxa + Limites lógicos/globais)\r\nO aplicativo possui controles suficientes de anti-automação para detectar e proteger contra exfiltração de dados, solicitações excessivas de lógica de negócios, uploads excessivos de arquivos ou ataques de negação de serviço. (Anti DDOS/ReCaptcha/hCaptcha..)",
+      "summary_en": "The application has appropriate limits for **specific business actions or transactions*which are correctly enforced on a per user basis. (Rate limits + Logical/global limits)\r\nThe application has sufficient anti-automation controls to detect and protect against data exfiltration, excessive business logic requests, excessive file uploads or denial of service attacks. (Anti DDOS/ReCaptcha/hCaptcha..)",
+      "summary_ru": "O aplicativo possui limites apropriados para **ações ou transações de negócios específicas**, que são corretamente aplicados por usuário. (Limites de taxa + Limites lógicos/globais)\r\nO aplicativo possui controles suficientes de anti-automação para detectar e proteger contra exfiltração de dados, solicitações excessivas de lógica de negócios, uploads excessivos de arquivos ou ataques de negação de serviço. (Anti DDOS/ReCaptcha/hCaptcha..)",
+      "text": "The application has appropriate limits for **specific business actions or transactions*which are correctly enforced on a per user basis. (Rate limits + Logical/global limits)\r\nThe application has sufficient anti-automation controls to detect and protect against data exfiltration, excessive business logic requests, excessive file uploads or denial of service attacks. (Anti DDOS/ReCaptcha/hCaptcha..)",
+      "text_en": "The application has appropriate limits for **specific business actions or transactions*which are correctly enforced on a per user basis. (Rate limits + Logical/global limits)\r\nThe application has sufficient anti-automation controls to detect and protect against data exfiltration, excessive business logic requests, excessive file uploads or denial of service attacks. (Anti DDOS/ReCaptcha/hCaptcha..)",
+      "text_ru": "O aplicativo possui limites apropriados para **ações ou transações de negócios específicas**, que são corretamente aplicados por usuário. (Limites de taxa + Limites lógicos/globais)\r\nO aplicativo possui controles suficientes de anti-automação para detectar e proteger contra exfiltração de dados, solicitações excessivas de lógica de negócios, uploads excessivos de arquivos ou ataques de negação de serviço. (Anti DDOS/ReCaptcha/hCaptcha..)",
       "order": 0,
       "is_default": false,
       "categories": [
@@ -444,13 +443,13 @@
     "fields": {
       "title": "Backend generates random names for files",
       "title_en": "Backend generates random names for files",
-      "title_ru": "Имена файлов на сервере сформированы случайным образом",
-      "summary": "The backend server should generate unique random names for files, so user can not control them.",
+      "title_ru": "O backend gera nomes aleatórios para arquivos",
+      "summary": "O servidor backend deve gerar nomes únicos e aleatórios para os arquivos, para que o usuário não possa controlá-los.",
       "summary_en": "The backend server should generate unique random names for files, so user can not control them.",
-      "summary_ru": "Бэкенд сервер должен генерировать уникальные и рандомные имена файлов, чтобы пользователь не мог их контроллировать",
+      "summary_ru": "O servidor backend deve gerar nomes únicos e aleatórios para os arquivos, para que o usuário não possa controlá-los.",
       "text": "The backend server should generate unique random names for files, so user can not control them.",
       "text_en": "The backend server should generate unique random names for files, so user can not control them.",
-      "text_ru": "Бэкенд сервер должен генерировать уникальные и рандомные имена файлов, чтобы пользователь не мог их контроллировать",
+      "text_ru": "O servidor backend deve gerar nomes únicos e aleatórios para os arquivos, para que o usuário não possa controlá-los.",
       "order": 0,
       "is_default": false,
       "categories": [
@@ -470,13 +469,13 @@
     "fields": {
       "title": "Use whitelists for symbols in user-input",
       "title_en": "Use whitelists for symbols in user-input",
-      "title_ru": "Используйте белые списки разрешенных символов в user-input",
-      "summary": "* Filenames\r\n* Logins\r\n* Emails\r\n* Personal Data\r\n* ...",
-      "summary_en": "* Filenames\r\n* Logins\r\n* Emails\r\n* Personal Data\r\n* ...",
-      "summary_ru": "* Имена файлов\r\n* Логины\r\n* Emails\r\n* Персональные данные\r\n* ...",
-      "text": "* Filenames\r\n* Logins\r\n* Emails\r\n* Personal Data\r\n* ...",
-      "text_en": "* Filenames\r\n* Logins\r\n* Emails\r\n* Personal Data\r\n* ...",
-      "text_ru": "* Имена файлов\r\n* Логины\r\n* Emails\r\n* Персональные данные\r\n* ...",
+      "title_ru": "Use listas brancas para símbolos na entrada de usuário",
+      "summary": "Nomes de arquivos\r\nLogins\r\nEmails\r\nDados Pessoais\r\n...",
+      "summary_en": "Filenames\r\nLogins\r\nEmails\r\nPersonal Data\r\n...",
+      "summary_ru": "Nomes de arquivos\r\nLogins\r\nEmails\r\nDados Pessoais\r\n...",
+      "text": "Filenames\r\nLogins\r\nEmails\r\nPersonal Data\r\n...",
+      "text_en": "Filenames\r\nLogins\r\nEmails\r\nPersonal Data\r\n...",
+      "text_ru": "Nomes de arquivos\r\nLogins\r\nEmails\r\nDados Pessoais\r\n...",
       "order": 0,
       "is_default": false,
       "categories": [
@@ -495,25 +494,22 @@
     "fields": {
       "title": "File extension is properly validated",
       "title_en": "File extension is properly validated",
-      "title_ru": "Расширения файлов должным образом валидируются",
-      "summary": "* Extension is included in the list of allowed extensions regardless of register.  \r\n* Mime-type is included in the allowed extensions list (if your application accepts mime-type = octet-stream, proceed to the next checks)\r\n* Binary file header is included into the allowed file formats. (https://www.filesignatures.net/index.php?page=all)\r\n* Extension, mime-type and binary header are belong to same file type.\r\n* The file size does not exceed the allowed size.",
-      "summary_en": "* Extension is included in the list of allowed extensions regardless of register.  \r\n* Mime-type is included in the allowed extensions list (if your application accepts mime-type = octet-stream, proceed to the next checks)\r\n* Binary file header is included into the allowed file formats. (https://www.filesignatures.net/index.php?page=all)\r\n* Extension, mime-type and binary header are belong to same file type.\r\n* The file size does not exceed the allowed size.",
-      "summary_ru": "* Расширение входит в список разрешенных расширений независимо от регистра.\r\n* Mime-type входит в список разрешенных (если к вам в приложение должен прилетать mime-type = octet-stream, то переходите к следующим проверкам)\r\n* Бинарный заголовок файла входит в список разрешенных форматов файла. (https://www.filesignatures.net/index.php?page=all)\r\n* Расширение, mime-type и бинарный заголовок принадлежат одному типу файлов.\r\n* Размер файла не превышает допустимый размер.",
-      "text": "* Extension is included in the list of allowed extensions regardless of register.  \r\n* Mime-type is included in the allowed extensions list (if your application accepts mime-type = octet-stream, proceed to the next checks)\r\n* Binary file header is included into the allowed file formats. (https://www.filesignatures.net/index.php?page=all)\r\n* Extension, mime-type and binary header are belong to same file type.\r\n* The file size does not exceed the allowed size.",
-      "text_en": "* Extension is included in the list of allowed extensions regardless of register.  \r\n* Mime-type is included in the allowed extensions list (if your application accepts mime-type = octet-stream, proceed to the next checks)\r\n* Binary file header is included into the allowed file formats. (https://www.filesignatures.net/index.php?page=all)\r\n* Extension, mime-type and binary header are belong to same file type.\r\n* The file size does not exceed the allowed size.",
-      "text_ru": "* Расширение входит в список разрешенных расширений независимо от регистра.\r\n* Mime-type входит в список разрешенных (если к вам в приложение должен прилетать mime-type = octet-stream, то переходите к следующим проверкам)\r\n* Бинарный заголовок файла входит в список разрешенных форматов файла. (https://www.filesignatures.net/index.php?page=all)\r\n* Расширение, mime-type и бинарный заголовок принадлежат одному типу файлов.\r\n* Размер файла не превышает допустимый размер.",
+      "title_ru": "Extensão de arquivo é validada corretamente",
+      "summary": "A extensão está incluída na lista de extensões permitidas, independentemente de maiúsculas ou minúsculas. \r\nO tipo mime está incluído na lista de tipos permitidos (se sua aplicação aceita mime-type = octet-stream, siga para as próximas verificações)\r\nO cabeçalho binário do arquivo está incluído nos formatos de arquivos permitidos. (https://www.filesignatures.net/index.php?page=all)\r\nA extensão, o mime-type e o cabeçalho binário pertencem ao mesmo tipo de arquivo.\r\nO tamanho do arquivo não excede o limite permitido.",
+      "summary_en": "Extension is included in the list of allowed extensions regardless of register.  \r\nMime-type is included in the allowed extensions list (if your application accepts mime-type = octet-stream, proceed to the next checks)\r\nBinary file header is included into the allowed file formats. (https://www.filesignatures.net/index.php?page=all)\r\nExtension, mime-type and binary header are belong to same file type.\r\nThe file size does not exceed the allowed size.",
+      "summary_ru": "A extensão está incluída na lista de extensões permitidas, independentemente de maiúsculas ou minúsculas. \r\nO tipo mime está incluído na lista de tipos permitidos (se sua aplicação aceita mime-type = octet-stream, siga para as próximas verificações)\r\nO cabeçalho binário do arquivo está incluído nos formatos de arquivos permitidos. (https://www.filesignatures.net/index.php?page=all)\r\nA extensão, o mime-type e o cabeçalho binário pertencem ao mesmo tipo de arquivo.\r\nO tamanho do arquivo não excede o limite permitido.",
+      "text": "Extension is included in the list of allowed extensions regardless of register.  \r\nMime-type is included in the allowed extensions list (if your application accepts mime-type = octet-stream, proceed to the next checks)\r\nBinary file header is included into the allowed file formats. (https://www.filesignatures.net/index.php?page=all)\r\nExtension, mime-type and binary header are belong to same file type.\r\nThe file size does not exceed the allowed size.",
+      "text_en": "Extension is included in the list of allowed extensions regardless of register.  \r\nMime-type is included in the allowed extensions list (if your application accepts mime-type = octet-stream, proceed to the next checks)\r\nBinary file header is included into the allowed file formats. (https://www.filesignatures.net/index.php?page=all)\r\nExtension, mime-type and binary header are belong to same file type.\r\nThe file size does not exceed the allowed size.",
+      "text_ru": "A extensão está incluída na lista de extensões permitidas, independentemente de maiúsculas ou minúsculas. \r\nO tipo mime está incluído na lista de tipos permitidos (se sua aplicação aceita mime-type = octet-stream, siga para as próximas verificações)\r\nO cabeçalho binário do arquivo está incluído nos formatos de arquivos permitidos. (https://www.filesignatures.net/index.php?page=all)\r\nA extensão, o mime-type e o cabeçalho binário pertencem ao mesmo tipo de arquivo.\r\nO tamanho do arquivo não excede o limite permitido.",
       "order": 0,
       "is_default": false,
       "categories": [
         8,
         12
       ],
-      "test_cases": [
-        7,
-        8
-      ]
+      "test_cases": []
     }
-  },
+  },  
   {
     "model": "requirement.requirement",
     "pk": 13,
@@ -592,12 +588,12 @@
       "title": "For session cookies all flags are set to secure values",
       "title_en": "For session cookies all flags are set to secure values",
       "title_ru": "Для сессий все куки флаги установлены в безопасные значения",
-      "summary": "* SameSite=Lax/Strict (to protect them from CSRF)\r\n* secure (to protect them from MiTM)\r\n* httponly (to protect them from XSS)",
-      "summary_en": "* SameSite=Lax/Strict (to protect them from CSRF)\r\n* secure (to protect them from MiTM)\r\n* httponly (to protect them from XSS)",
-      "summary_ru": "* SameSite=Lax/Strict (для их защиты от CSRF)\r\n* secure (для их защиты от MiTM)\r\n* httponly (для их защиты от XSS)",
-      "text": "* SameSite=Lax/Strict (to protect them from CSRF)\r\n* secure (to protect them from MiTM)\r\n* httponly (to protect them from XSS)",
-      "text_en": "* SameSite=Lax/Strict (to protect them from CSRF)\r\n* secure (to protect them from MiTM)\r\n* httponly (to protect them from XSS)",
-      "text_ru": "* SameSite=Lax/Strict (для их защиты от CSRF)\r\n* secure (для их защиты от MiTM)\r\n* httponly (для их защиты от XSS)",
+      "summary": "SameSite=Lax/Strict (to protect them from CSRF)\r\nsecure (to protect them from MiTM)\r\nhttponly (to protect them from XSS)",
+      "summary_en": "SameSite=Lax/Strict (to protect them from CSRF)\r\nsecure (to protect them from MiTM)\r\nhttponly (to protect them from XSS)",
+      "summary_ru": "SameSite=Lax/Strict (для их защиты от CSRF)\r\nsecure (для их защиты от MiTM)\r\nhttponly (для их защиты от XSS)",
+      "text": "SameSite=Lax/Strict (to protect them from CSRF)\r\nsecure (to protect them from MiTM)\r\nhttponly (to protect them from XSS)",
+      "text_en": "SameSite=Lax/Strict (to protect them from CSRF)\r\nsecure (to protect them from MiTM)\r\nhttponly (to protect them from XSS)",
+      "text_ru": "SameSite=Lax/Strict (для их защиты от CSRF)\r\nsecure (для их защиты от MiTM)\r\nhttponly (для их защиты от XSS)",
       "order": 0,
       "is_default": false,
       "categories": [
@@ -643,12 +639,12 @@
       "title": "Security headers are set",
       "title_en": "Security headers are set",
       "title_ru": null,
-      "summary": "Set security headers from [this page](https://https://infosec.mozilla.org/guidelines/web_security) \r\n\r\nRequired are:\r\n* Content Security Policy\r\n* X-Frame-Options if you don't like the `frame-ancestors` CSP directive\r\n* Cookie flags\r\n* CORS",
-      "summary_en": "Set security headers from [this page](https://https://infosec.mozilla.org/guidelines/web_security) \r\n\r\nRequired are:\r\n* Content Security Policy\r\n* X-Frame-Options if you don't like the `frame-ancestors` CSP directive\r\n* Cookie flags\r\n* CORS",
-      "summary_ru": "Установите заголовки безопасности [с этой страницы](https://https://infosec.mozilla.org/guidelines/web_security) \r\n\r\nОбязательными являются:\r\n* Content Security Policy\r\n* X-Frame-Options если вам не нравится CSP директива `frame-ancestors`\r\n* Cookie flags\r\n* CORS",
-      "text": "Set security headers from [this page](https://https://infosec.mozilla.org/guidelines/web_security) \r\n\r\nRequired are:\r\n* Content Security Policy\r\n* X-Frame-Options if you don't like the `frame-ancestors` CSP directive\r\n* Cookie flags\r\n* CORS",
-      "text_en": "Set security headers from [this page](https://https://infosec.mozilla.org/guidelines/web_security) \r\n\r\nRequired are:\r\n* Content Security Policy\r\n* X-Frame-Options if you don't like the `frame-ancestors` CSP directive\r\n* Cookie flags\r\n* CORS",
-      "text_ru": "Установите заголовки безопасности [с этой страницы](https://https://infosec.mozilla.org/guidelines/web_security) \r\n\r\nОбязательными являются:\r\n* Content Security Policy\r\n* X-Frame-Options если вам не нравится CSP директива `frame-ancestors`\r\n* Cookie flags\r\n* CORS",
+      "summary": "Set security headers from [this page](https://https://infosec.mozilla.org/guidelines/web_security) \r\n\r\nRequired are:\r\nContent Security Policy\r\nX-Frame-Options if you don't like the `frame-ancestors` CSP directive\r\nCookie flags\r\nCORS",
+      "summary_en": "Set security headers from [this page](https://https://infosec.mozilla.org/guidelines/web_security) \r\n\r\nRequired are:\r\nContent Security Policy\r\nX-Frame-Options if you don't like the `frame-ancestors` CSP directive\r\nCookie flags\r\nCORS",
+      "summary_ru": "Установите заголовки безопасности [с этой страницы](https://https://infosec.mozilla.org/guidelines/web_security) \r\n\r\nОбязательными являются:\r\nContent Security Policy\r\nX-Frame-Options если вам не нравится CSP директива `frame-ancestors`\r\nCookie flags\r\nCORS",
+      "text": "Set security headers from [this page](https://https://infosec.mozilla.org/guidelines/web_security) \r\n\r\nRequired are:\r\nContent Security Policy\r\nX-Frame-Options if you don't like the `frame-ancestors` CSP directive\r\nCookie flags\r\nCORS",
+      "text_en": "Set security headers from [this page](https://https://infosec.mozilla.org/guidelines/web_security) \r\n\r\nRequired are:\r\nContent Security Policy\r\nX-Frame-Options if you don't like the `frame-ancestors` CSP directive\r\nCookie flags\r\nCORS",
+      "text_ru": "Установите заголовки безопасности [с этой страницы](https://https://infosec.mozilla.org/guidelines/web_security) \r\n\r\nОбязательными являются:\r\nContent Security Policy\r\nX-Frame-Options если вам не нравится CSP директива `frame-ancestors`\r\nCookie flags\r\nCORS",
       "order": 0,
       "is_default": false,
       "categories": [
@@ -2933,7 +2929,7 @@
       "summary_ru": "Каждый ответ HTTP содержит заголовки базопасности",
       "text": "- **Charset**\r\nContent-Type header. text/*, */*+xml and application/xml content types should specify a safe character set (e.g., UTF-8, ISO-8859-1).\r\nExample: `Content-type: application/json; charset=utf-8`\r\n- **Content-Security-Policy**\r\nHint: Use CSP generators to make CSP, that will not break your current build. Then remove `unsafe-eval` and `unsafe-inline` from all directories\r\n- **CORS (Cross-origin Resource Sharing)**\r\nExample: `Access-Control-Allow-Origin: https://frontend.company.com`\r\n- **Cookies**\r\nExample from Mozilla:\r\n```\r\n# Session identifier cookie only accessible on this host that gets purged when the user closes their browser\r\nSet-Cookie: MOZSESSIONID=980e5da39d4b472b9f504cac9; Path=/; Secure; HttpOnly\r\n\r\n# Session identifier for all mozilla.org sites that expires in 30 days using the __Secure- prefix\r\n# This cookie is not sent cross-origin, but is sent when navigating to any Mozilla site from from another site\r\nSet-Cookie: __Secure-MOZSESSIONID=7307d70a86bd4ab5a00499762; Max-Age=2592000; Domain=mozilla.org; Path=/; Secure; HttpOnly; SameSite=Lax\r\n\r\n# Sets a long-lived cookie for the current host, accessible by Javascript, when the user accepts the ToS\r\n# This cookie is sent when navigating to your sent from another site, such as by clicking a link\r\nSet-Cookie: __Host-ACCEPTEDTOS=true; Expires=Fri, 31 Dec 9999 23:59:59 GMT; Path=/; Secure; SameSite=Lax\r\n\r\n# Session identifier used for a secure site, such as bugzilla.mozilla.org. It isn't sent from cross-origin\r\n# requests, nor is it sent when navigating to bugzilla.mozilla.org from another site. Used in conjunction with\r\n# other anti-CSRF measures, this is a very strong way to defend your site against CSRF attacks.\r\nSet-Cookie: __Host-BMOSESSIONID=YnVnemlsbGE=; Max-Age=2592000; Path=/; Secure; HttpOnly; SameSite=Strict\r\n```",
       "text_en": "- **Charset**\r\nContent-Type header. text/*, */*+xml and application/xml content types should specify a safe character set (e.g., UTF-8, ISO-8859-1).\r\nExample: `Content-type: application/json; charset=utf-8`\r\n- **Content-Security-Policy**\r\nHint: Use CSP generators to make CSP, that will not break your current build. Then remove `unsafe-eval` and `unsafe-inline` from all directories\r\n- **CORS (Cross-origin Resource Sharing)**\r\nExample: `Access-Control-Allow-Origin: https://frontend.company.com`\r\n- **Cookies**\r\nExample from Mozilla:\r\n```\r\n# Session identifier cookie only accessible on this host that gets purged when the user closes their browser\r\nSet-Cookie: MOZSESSIONID=980e5da39d4b472b9f504cac9; Path=/; Secure; HttpOnly\r\n\r\n# Session identifier for all mozilla.org sites that expires in 30 days using the __Secure- prefix\r\n# This cookie is not sent cross-origin, but is sent when navigating to any Mozilla site from from another site\r\nSet-Cookie: __Secure-MOZSESSIONID=7307d70a86bd4ab5a00499762; Max-Age=2592000; Domain=mozilla.org; Path=/; Secure; HttpOnly; SameSite=Lax\r\n\r\n# Sets a long-lived cookie for the current host, accessible by Javascript, when the user accepts the ToS\r\n# This cookie is sent when navigating to your sent from another site, such as by clicking a link\r\nSet-Cookie: __Host-ACCEPTEDTOS=true; Expires=Fri, 31 Dec 9999 23:59:59 GMT; Path=/; Secure; SameSite=Lax\r\n\r\n# Session identifier used for a secure site, such as bugzilla.mozilla.org. It isn't sent from cross-origin\r\n# requests, nor is it sent when navigating to bugzilla.mozilla.org from another site. Used in conjunction with\r\n# other anti-CSRF measures, this is a very strong way to defend your site against CSRF attacks.\r\nSet-Cookie: __Host-BMOSESSIONID=YnVnemlsbGE=; Max-Age=2592000; Path=/; Secure; HttpOnly; SameSite=Strict\r\n```",
-      "text_ru": "- **Кодировка**\r\nЗаголовок Content-Type. Типы содержимого text / *, * / * + xml и application/xml должны указывать безопасную кодировку (например, UTF-8, ISO-8859-1).\r\nПример: `Content-type: application/json; charset=utf-8`\r\n- **Content-Security-Policy**\r\nПодсказка: используйте генераторы CSP для создания CSP, которые не сломают вашу текущую сборку. Затем удалите `unsafe-eval` и `unsafe-inline` из всех каталогов.\r\n- **CORS (Cross-origin Resource Sharing)**\r\nПример: `Access-Control-Allow-Origin: https://frontend.company.com`\r\n- **Cookies**\r\nПример из Mozilla:\r\n```\r\n# Session identifier cookie only accessible on this host that gets purged when the user closes their browser\r\nSet-Cookie: MOZSESSIONID=980e5da39d4b472b9f504cac9; Path=/; Secure; HttpOnly\r\n\r\n# Session identifier for all mozilla.org sites that expires in 30 days using the __Secure- prefix\r\n# This cookie is not sent cross-origin, but is sent when navigating to any Mozilla site from from another site\r\nSet-Cookie: __Secure-MOZSESSIONID=7307d70a86bd4ab5a00499762; Max-Age=2592000; Domain=mozilla.org; Path=/; Secure; HttpOnly; SameSite=Lax\r\n\r\n# Sets a long-lived cookie for the current host, accessible by Javascript, when the user accepts the ToS\r\n# This cookie is sent when navigating to your sent from another site, such as by clicking a link\r\nSet-Cookie: __Host-ACCEPTEDTOS=true; Expires=Fri, 31 Dec 9999 23:59:59 GMT; Path=/; Secure; SameSite=Lax\r\n\r\n# Session identifier used for a secure site, such as bugzilla.mozilla.org. It isn't sent from cross-origin\r\n# requests, nor is it sent when navigating to bugzilla.mozilla.org from another site. Used in conjunction with\r\n# other anti-CSRF measures, this is a very strong way to defend your site against CSRF attacks.\r\nSet-Cookie: __Host-BMOSESSIONID=YnVnemlsbGE=; Max-Age=2592000; Path=/; Secure; HttpOnly; SameSite=Strict\r\n```",
+      "text_ru": "- **Кодировка**\r\nЗаголовок Content-Type. Типы содержимого text / *, / + xml и application/xml должны указывать безопасную кодировку (например, UTF-8, ISO-8859-1).\r\nПример: `Content-type: application/json; charset=utf-8`\r\n- **Content-Security-Policy**\r\nПодсказка: используйте генераторы CSP для создания CSP, которые не сломают вашу текущую сборку. Затем удалите `unsafe-eval` и `unsafe-inline` из всех каталогов.\r\n- **CORS (Cross-origin Resource Sharing)**\r\nПример: `Access-Control-Allow-Origin: https://frontend.company.com`\r\n- **Cookies**\r\nПример из Mozilla:\r\n```\r\n# Session identifier cookie only accessible on this host that gets purged when the user closes their browser\r\nSet-Cookie: MOZSESSIONID=980e5da39d4b472b9f504cac9; Path=/; Secure; HttpOnly\r\n\r\n# Session identifier for all mozilla.org sites that expires in 30 days using the __Secure- prefix\r\n# This cookie is not sent cross-origin, but is sent when navigating to any Mozilla site from from another site\r\nSet-Cookie: __Secure-MOZSESSIONID=7307d70a86bd4ab5a00499762; Max-Age=2592000; Domain=mozilla.org; Path=/; Secure; HttpOnly; SameSite=Lax\r\n\r\n# Sets a long-lived cookie for the current host, accessible by Javascript, when the user accepts the ToS\r\n# This cookie is sent when navigating to your sent from another site, such as by clicking a link\r\nSet-Cookie: __Host-ACCEPTEDTOS=true; Expires=Fri, 31 Dec 9999 23:59:59 GMT; Path=/; Secure; SameSite=Lax\r\n\r\n# Session identifier used for a secure site, such as bugzilla.mozilla.org. It isn't sent from cross-origin\r\n# requests, nor is it sent when navigating to bugzilla.mozilla.org from another site. Used in conjunction with\r\n# other anti-CSRF measures, this is a very strong way to defend your site against CSRF attacks.\r\nSet-Cookie: __Host-BMOSESSIONID=YnVnemlsbGE=; Max-Age=2592000; Path=/; Secure; HttpOnly; SameSite=Strict\r\n```",
       "order": 0,
       "is_default": false,
       "categories": [
@@ -3535,9 +3531,9 @@
       "title": "Try to register in your application",
       "title_en": "Try to register in your application",
       "title_ru": "Попробуйте зарегистрироваться в вашем приложении",
-      "text": "Steps to reproduce:\r\n\r\n1. Go to the register interface\r\nIf you can not find it - replace \"/login\" to \"/register\" or \"/signup\" in your address bar.\r\n\r\n2. Register\r\n\r\nExpected results:\r\n\r\n* You can not access the registration interface\r\n* Registration is failed",
-      "text_en": "Steps to reproduce:\r\n\r\n1. Go to the register interface\r\nIf you can not find it - replace \"/login\" to \"/register\" or \"/signup\" in your address bar.\r\n\r\n2. Register\r\n\r\nExpected results:\r\n\r\n* You can not access the registration interface\r\n* Registration is failed",
-      "text_ru": "Шаги для воспроизведения:\r\n\r\n1. Откройте страничку с регистрацией\r\nЕсли вы не можете найти такую - замените \"/login\" на \"/register\" или \"/signup\" в адресной строке.\r\n\r\n2. Регистрируйтесь\r\n\r\nОжидаемый результат:\r\n \r\n* Вы не можете получить доступ к страничке регистрации\r\n* Регистрация завершена с ошибкой"
+      "text": "Steps to reproduce:\r\n\r\n1. Go to the register interface\r\nIf you can not find it - replace \"/login\" to \"/register\" or \"/signup\" in your address bar.\r\n\r\n2. Register\r\n\r\nExpected results:\r\n\r\nYou can not access the registration interface\r\nRegistration is failed",
+      "text_en": "Steps to reproduce:\r\n\r\n1. Go to the register interface\r\nIf you can not find it - replace \"/login\" to \"/register\" or \"/signup\" in your address bar.\r\n\r\n2. Register\r\n\r\nExpected results:\r\n\r\nYou can not access the registration interface\r\nRegistration is failed",
+      "text_ru": "Шаги для воспроизведения:\r\n\r\n1. Откройте страничку с регистрацией\r\nЕсли вы не можете найти такую - замените \"/login\" на \"/register\" или \"/signup\" в адресной строке.\r\n\r\n2. Регистрируйтесь\r\n\r\nОжидаемый результат:\r\n \r\nВы не можете получить доступ к страничке регистрации\r\nРегистрация завершена с ошибкой"
     }
   },
   {
@@ -3547,9 +3543,9 @@
       "title": "Check default credentials",
       "title_en": "Check default credentials",
       "title_ru": "Проверьте стандартные учетные записи",
-      "text": "Steps to reproduce:\r\n\r\n1. Go to the login interface\r\n2. Enter \"admin\" as login and \"admin\" as password. \r\n(It can be another combination, ask your admins about default credentials. The main thing is that they should be changed in the production environment)\r\n\r\nExpected results:\r\n\r\n* Authentication is failed",
-      "text_en": "Steps to reproduce:\r\n\r\n1. Go to the login interface\r\n2. Enter \"admin\" as login and \"admin\" as password. \r\n(It can be another combination, ask your admins about default credentials. The main thing is that they should be changed in the production environment)\r\n\r\nExpected results:\r\n\r\n* Authentication is failed",
-      "text_ru": "Шаги для воспроизведения:\r\n\r\n1. Перейдите на страничку входа в приложение\r\n2. Введите \"admin\" как login и \"admin\" как password. \r\n(Возможна другая комбинация, спросите своих администаторов какая учетная запись используется по-умолчанию. Основной момент в том, что она должна быть сменена в production окружении)\r\n\r\nОжидаемый результат:\r\n\r\n* Аутентификация не работает"
+      "text": "Steps to reproduce:\r\n\r\n1. Go to the login interface\r\n2. Enter \"admin\" as login and \"admin\" as password. \r\n(It can be another combination, ask your admins about default credentials. The main thing is that they should be changed in the production environment)\r\n\r\nExpected results:\r\n\r\nAuthentication is failed",
+      "text_en": "Steps to reproduce:\r\n\r\n1. Go to the login interface\r\n2. Enter \"admin\" as login and \"admin\" as password. \r\n(It can be another combination, ask your admins about default credentials. The main thing is that they should be changed in the production environment)\r\n\r\nExpected results:\r\n\r\nAuthentication is failed",
+      "text_ru": "Шаги для воспроизведения:\r\n\r\n1. Перейдите на страничку входа в приложение\r\n2. Введите \"admin\" как login и \"admin\" как password. \r\n(Возможна другая комбинация, спросите своих администаторов какая учетная запись используется по-умолчанию. Основной момент в том, что она должна быть сменена в production окружении)\r\n\r\nОжидаемый результат:\r\n\r\nАутентификация не работает"
     }
   },
   {
@@ -3559,9 +3555,9 @@
       "title": "Authentication is working",
       "title_en": "Authentication is working",
       "title_ru": "Аутентификация работает",
-      "text": "Steps to reproduce:\r\n\r\n1. Go to the critical app interface, that must be secured with authentication\r\n2. Copy it's location to the clipboard\r\n3. Open this location in a new \"incognito\" browser window\r\n\r\nExpected results:\r\n\r\n* App redirects you to the login page",
-      "text_en": "Steps to reproduce:\r\n\r\n1. Go to the critical app interface, that must be secured with authentication\r\n2. Copy it's location to the clipboard\r\n3. Open this location in a new \"incognito\" browser window\r\n\r\nExpected results:\r\n\r\n* App redirects you to the login page",
-      "text_ru": "Шаги для воспроизведения:\r\n\r\n1. Откройте критичный интерфейс приложения, который должен быть защищен аутентификацией\r\n2. Скопируйте URL адрес из адресной строки\r\n3. Откройте его в новом окне браузера в режиме \"инкогнито\"\r\n\r\nОжидаемые результаты:\r\n\r\n* Приложение перенаправило вас на страничку входа"
+      "text": "Steps to reproduce:\r\n\r\n1. Go to the critical app interface, that must be secured with authentication\r\n2. Copy it's location to the clipboard\r\n3. Open this location in a new \"incognito\" browser window\r\n\r\nExpected results:\r\n\r\nApp redirects you to the login page",
+      "text_en": "Steps to reproduce:\r\n\r\n1. Go to the critical app interface, that must be secured with authentication\r\n2. Copy it's location to the clipboard\r\n3. Open this location in a new \"incognito\" browser window\r\n\r\nExpected results:\r\n\r\nApp redirects you to the login page",
+      "text_ru": "Шаги для воспроизведения:\r\n\r\n1. Откройте критичный интерфейс приложения, который должен быть защищен аутентификацией\r\n2. Скопируйте URL адрес из адресной строки\r\n3. Откройте его в новом окне браузера в режиме \"инкогнито\"\r\n\r\nОжидаемые результаты:\r\n\r\nПриложение перенаправило вас на страничку входа"
     }
   },
   {
@@ -3571,9 +3567,9 @@
       "title": "Limits are set",
       "title_en": "Limits are set",
       "title_ru": "Лимиты установлены",
-      "text": "What to check:\r\n\r\n- The application will only process business logic flows with all steps being processed in realistic human time, i.e. transactions are not submitted too quickly\r\n- You can not bypass limits with specific HTTP headers like `X-Forwarded-For: 127.0.0.1`\r\n\r\nSteps to reproduce:\r\n\r\n1. Input any existing login and a wrong password in the authentication form\r\n2. Repeat step 1 for 20-30 times\r\n\r\nExpected results:\r\n\r\n* You meet delays\r\n* You meet limit errors\r\n* You meet captcha",
-      "text_en": "What to check:\r\n\r\n- The application will only process business logic flows with all steps being processed in realistic human time, i.e. transactions are not submitted too quickly\r\n- You can not bypass limits with specific HTTP headers like `X-Forwarded-For: 127.0.0.1`\r\n\r\nSteps to reproduce:\r\n\r\n1. Input any existing login and a wrong password in the authentication form\r\n2. Repeat step 1 for 20-30 times\r\n\r\nExpected results:\r\n\r\n* You meet delays\r\n* You meet limit errors\r\n* You meet captcha",
-      "text_ru": "Что проверять:\r\n\r\n- Приложение исполняет каждый шаг бизнес логики в реалистичное время для человека, другими словами, транзакции не проводятся слишком быстро. \r\n- You can not bypass limits with specific HTTP headers like `X-Forwarded-For: 127.0.0.1`\r\n\r\nШаги для воспроизведения:\r\n\r\n1. Введите любой существующий логин и неправильный пароль в форму аутентификации\r\n2. Повторите первый шаг 20-30 раз\r\n\r\nОжидаемые результаты:\r\n\r\n* Вы встречаете задерки в ответе от сервера\r\n* Вы встречаете ошибки по лимитам\r\n* Вы встречаете капчу"
+      "text": "What to check:\r\n\r\n- The application will only process business logic flows with all steps being processed in realistic human time, i.e. transactions are not submitted too quickly\r\n- You can not bypass limits with specific HTTP headers like `X-Forwarded-For: 127.0.0.1`\r\n\r\nSteps to reproduce:\r\n\r\n1. Input any existing login and a wrong password in the authentication form\r\n2. Repeat step 1 for 20-30 times\r\n\r\nExpected results:\r\n\r\nYou meet delays\r\nYou meet limit errors\r\nYou meet captcha",
+      "text_en": "What to check:\r\n\r\n- The application will only process business logic flows with all steps being processed in realistic human time, i.e. transactions are not submitted too quickly\r\n- You can not bypass limits with specific HTTP headers like `X-Forwarded-For: 127.0.0.1`\r\n\r\nSteps to reproduce:\r\n\r\n1. Input any existing login and a wrong password in the authentication form\r\n2. Repeat step 1 for 20-30 times\r\n\r\nExpected results:\r\n\r\nYou meet delays\r\nYou meet limit errors\r\nYou meet captcha",
+      "text_ru": "Что проверять:\r\n\r\n- Приложение исполняет каждый шаг бизнес логики в реалистичное время для человека, другими словами, транзакции не проводятся слишком быстро. \r\n- You can not bypass limits with specific HTTP headers like `X-Forwarded-For: 127.0.0.1`\r\n\r\nШаги для воспроизведения:\r\n\r\n1. Введите любой существующий логин и неправильный пароль в форму аутентификации\r\n2. Повторите первый шаг 20-30 раз\r\n\r\nОжидаемые результаты:\r\n\r\nВы встречаете задерки в ответе от сервера\r\nВы встречаете ошибки по лимитам\r\nВы встречаете капчу"
     }
   },
   {
@@ -3583,9 +3579,9 @@
       "title": "Test for random file names",
       "title_en": "Test for random file names",
       "title_ru": "Тест рандомных имен файлов",
-      "text": "Steps to reproduce:\r\n\r\n1. Open your file storage, where files are placed\r\n\r\nExpected results:\r\n\r\n* You see files with unique random-generated names",
-      "text_en": "Steps to reproduce:\r\n\r\n1. Open your file storage, where files are placed\r\n\r\nExpected results:\r\n\r\n* You see files with unique random-generated names",
-      "text_ru": "Шаги для воспроизведения:\r\n\r\n1. Откройте хранилище, где сохраняются файлы\r\n\r\nОжидаемый результат:\r\n\r\n* Вы видите файлы с уникальными рандомно сгенерированными именами"
+      "text": "Steps to reproduce:\r\n\r\n1. Open your file storage, where files are placed\r\n\r\nExpected results:\r\n\r\nYou see files with unique random-generated names",
+      "text_en": "Steps to reproduce:\r\n\r\n1. Open your file storage, where files are placed\r\n\r\nExpected results:\r\n\r\nYou see files with unique random-generated names",
+      "text_ru": "Шаги для воспроизведения:\r\n\r\n1. Откройте хранилище, где сохраняются файлы\r\n\r\nОжидаемый результат:\r\n\r\nВы видите файлы с уникальными рандомно сгенерированными именами"
     }
   },
   {
@@ -3595,9 +3591,9 @@
       "title": "Test allowed symbols whitelists",
       "title_en": "Test allowed symbols whitelists",
       "title_ru": "Тест белых списков разрешенных символов",
-      "text": "Steps to reproduce:\r\n\r\n1. Open any page with form, that you want to test\r\n2. Put any data with any symbol, that is not in your whitelist (ex. these symbols: ```\";'`~/\\.:$^%``` )\r\n\r\nExpected results:\r\n\r\n* You see an error **from backend**",
-      "text_en": "Steps to reproduce:\r\n\r\n1. Open any page with form, that you want to test\r\n2. Put any data with any symbol, that is not in your whitelist (ex. these symbols: ```\";'`~/\\.:$^%``` )\r\n\r\nExpected results:\r\n\r\n* You see an error **from backend**",
-      "text_ru": "Шаги для воспроизведения:\r\n\r\n1. Откройте любую страничку с формой, которую хотите протестировать\r\n2. Отправьте любые данные с символом, которого нет в вашем белом списке (пример:  ```\";'`~/\\.:$^%``` )\r\n\r\nОжидаемый результат:\r\n\r\n* Вы видите ошибку **от бэкенда**"
+      "text": "Steps to reproduce:\r\n\r\n1. Open any page with form, that you want to test\r\n2. Put any data with any symbol, that is not in your whitelist (ex. these symbols: ```\";'`~/\\.:$^%``` )\r\n\r\nExpected results:\r\n\r\nYou see an error **from backend**",
+      "text_en": "Steps to reproduce:\r\n\r\n1. Open any page with form, that you want to test\r\n2. Put any data with any symbol, that is not in your whitelist (ex. these symbols: ```\";'`~/\\.:$^%``` )\r\n\r\nExpected results:\r\n\r\nYou see an error **from backend**",
+      "text_ru": "Шаги для воспроизведения:\r\n\r\n1. Откройте любую страничку с формой, которую хотите протестировать\r\n2. Отправьте любые данные с символом, которого нет в вашем белом списке (пример:  ```\";'`~/\\.:$^%``` )\r\n\r\nОжидаемый результат:\r\n\r\nВы видите ошибку **от бэкенда**"
     }
   },
   {
@@ -3607,9 +3603,9 @@
       "title": "Test file upload with malicious file extensions",
       "title_en": "Test file upload with malicious file extensions",
       "title_ru": "Тестирование загрузки файла с опасным расширением",
-      "text": "Steps to reproduce:\r\n\r\n1. Create a file, which could be executed by the application (ex. `.pht` for php)\r\n2. Upload this file to the application through the file upload form\r\n\r\nExpected results:\r\n\r\n* File is not uploaded\r\n* You see an error",
-      "text_en": "Steps to reproduce:\r\n\r\n1. Create a file, which could be executed by the application (ex. `.pht` for php)\r\n2. Upload this file to the application through the file upload form\r\n\r\nExpected results:\r\n\r\n* File is not uploaded\r\n* You see an error",
-      "text_ru": "Шаги для воспроизведения:\r\n\r\n1. Создайте файл с расширением, которое может быть исполнено исследуемым приложением (прим. `.pht` для php)\r\n2. Загрузите файл в приложение через форму загрузки файлов\r\n\r\nОжидаемые результаты:\r\n\r\n* Файл не загружается\r\n* Вы видите ошибку при загрузке"
+      "text": "Steps to reproduce:\r\n\r\n1. Create a file, which could be executed by the application (ex. `.pht` for php)\r\n2. Upload this file to the application through the file upload form\r\n\r\nExpected results:\r\n\r\nFile is not uploaded\r\nYou see an error",
+      "text_en": "Steps to reproduce:\r\n\r\n1. Create a file, which could be executed by the application (ex. `.pht` for php)\r\n2. Upload this file to the application through the file upload form\r\n\r\nExpected results:\r\n\r\nFile is not uploaded\r\nYou see an error",
+      "text_ru": "Шаги для воспроизведения:\r\n\r\n1. Создайте файл с расширением, которое может быть исполнено исследуемым приложением (прим. `.pht` для php)\r\n2. Загрузите файл в приложение через форму загрузки файлов\r\n\r\nОжидаемые результаты:\r\n\r\nФайл не загружается\r\nВы видите ошибку при загрузке"
     }
   },
   {
@@ -3619,9 +3615,9 @@
       "title": "Test file upload with path traversal",
       "title_en": "Test file upload with path traversal",
       "title_ru": "Тестирование загрузки файла с path traversal",
-      "text": "Steps to reproduce:\r\n\r\n1. Open the dev console in your browser and go to the \"Network\" tab\r\n2. Start recording requests to the backend\r\n3. Upload any file\r\n4. Edit the request, that contains your file\r\n5. Put `../../../../../../../tmp/myfile` in the filename or it's content\r\n\r\nExpected result: \r\n\r\n* There is no file with name `myfile` in `/tmp` directory",
-      "text_en": "Steps to reproduce:\r\n\r\n1. Open the dev console in your browser and go to the \"Network\" tab\r\n2. Start recording requests to the backend\r\n3. Upload any file\r\n4. Edit the request, that contains your file\r\n5. Put `../../../../../../../tmp/myfile` in the filename or it's content\r\n\r\nExpected result: \r\n\r\n* There is no file with name `myfile` in `/tmp` directory",
-      "text_ru": "Шаги для воспроизведения:\r\n\r\n1. Откройте консоль разработчика в браузере и перейдите на вкладку \"Network\"/\"Сеть\"\r\n2. Начните запись запросов к серверу\r\n3. Загрузите любой файл\r\n4. Отредактируйте запрос, который содержал ваш файл\r\n5. Поместите строку `../../../../../../../tmp/myfile` в имя файла или в его содержимое\r\n\r\nОжидаемый результат: \r\n\r\n* На сервере в директории `/tmp` нет файла с именем `myfile`"
+      "text": "Steps to reproduce:\r\n\r\n1. Open the dev console in your browser and go to the \"Network\" tab\r\n2. Start recording requests to the backend\r\n3. Upload any file\r\n4. Edit the request, that contains your file\r\n5. Put `../../../../../../../tmp/myfile` in the filename or it's content\r\n\r\nExpected result: \r\n\r\nThere is no file with name `myfile` in `/tmp` directory",
+      "text_en": "Steps to reproduce:\r\n\r\n1. Open the dev console in your browser and go to the \"Network\" tab\r\n2. Start recording requests to the backend\r\n3. Upload any file\r\n4. Edit the request, that contains your file\r\n5. Put `../../../../../../../tmp/myfile` in the filename or it's content\r\n\r\nExpected result: \r\n\r\nThere is no file with name `myfile` in `/tmp` directory",
+      "text_ru": "Шаги для воспроизведения:\r\n\r\n1. Откройте консоль разработчика в браузере и перейдите на вкладку \"Network\"/\"Сеть\"\r\n2. Начните запись запросов к серверу\r\n3. Загрузите любой файл\r\n4. Отредактируйте запрос, который содержал ваш файл\r\n5. Поместите строку `../../../../../../../tmp/myfile` в имя файла или в его содержимое\r\n\r\nОжидаемый результат: \r\n\r\nНа сервере в директории `/tmp` нет файла с именем `myfile`"
     }
   },
   {
@@ -3631,9 +3627,9 @@
       "title": "Test file rewriting while upload",
       "title_en": "Test file rewriting while upload",
       "title_ru": "Тестирование перезаписи файлов при загрузке",
-      "text": "Steps to reproduce:\r\n\r\n1. Upload any file\r\n2. Edit the file: put `SOMETHING NEW` in the file content, but keep filename the same\r\n3. Upload edited file\r\n\r\nExpected result: \r\n\r\n* There are 2 files on the server with different content",
-      "text_en": "Steps to reproduce:\r\n\r\n1. Upload any file\r\n2. Edit the file: put `SOMETHING NEW` in the file content, but keep filename the same\r\n3. Upload edited file\r\n\r\nExpected result: \r\n\r\n* There are 2 files on the server with different content",
-      "text_ru": "Шаги для воспроизведения:\r\n\r\n1. Загрузите любой файл\r\n2. Отредактируйте файл: вставьте `SOMETHING NEW` в содержимое этого файла, но имя оставьте как было\r\n3. Загрузите файл повторно\r\n\r\nОжидаемый результат: \r\n\r\n* На сервере создано 2 файла с разным содержанием"
+      "text": "Steps to reproduce:\r\n\r\n1. Upload any file\r\n2. Edit the file: put `SOMETHING NEW` in the file content, but keep filename the same\r\n3. Upload edited file\r\n\r\nExpected result: \r\n\r\nThere are 2 files on the server with different content",
+      "text_en": "Steps to reproduce:\r\n\r\n1. Upload any file\r\n2. Edit the file: put `SOMETHING NEW` in the file content, but keep filename the same\r\n3. Upload edited file\r\n\r\nExpected result: \r\n\r\nThere are 2 files on the server with different content",
+      "text_ru": "Шаги для воспроизведения:\r\n\r\n1. Загрузите любой файл\r\n2. Отредактируйте файл: вставьте `SOMETHING NEW` в содержимое этого файла, но имя оставьте как было\r\n3. Загрузите файл повторно\r\n\r\nОжидаемый результат: \r\n\r\nНа сервере создано 2 файла с разным содержанием"
     }
   },
   {
@@ -3655,9 +3651,9 @@
       "title": "Test cookie flags",
       "title_en": "Test cookie flags",
       "title_ru": "Тестирование куки флагов",
-      "text": "Steps to reproduce\r\n\r\n1. Login to your website\r\n2. Open dev console on the \"Application\" tab\r\n3. Find session cookie\r\n\r\nExpected results:\r\n\r\n* The flag `SameSite=Lax/Strict` is set\r\n* The flag `secure` is set\r\n* The flag `httponly` is set",
-      "text_en": "Steps to reproduce\r\n\r\n1. Login to your website\r\n2. Open dev console on the \"Application\" tab\r\n3. Find session cookie\r\n\r\nExpected results:\r\n\r\n* The flag `SameSite=Lax/Strict` is set\r\n* The flag `secure` is set\r\n* The flag `httponly` is set",
-      "text_ru": "Шаги для воспроизведения\r\n\r\n1. Выполните вход на сайте\r\n2. Откройте консоль разработчика на вкладке \"Application\"\r\n3. Найдите сессионную куку\r\n\r\nОжидаемый результат:\r\n\r\n* Установлен флаг `SameSite=Lax/Strict`\r\n* Установлен флаг `secure`\r\n* Установлен флаг `httponly`"
+      "text": "Steps to reproduce\r\n\r\n1. Login to your website\r\n2. Open dev console on the \"Application\" tab\r\n3. Find session cookie\r\n\r\nExpected results:\r\n\r\nThe flag `SameSite=Lax/Strict` is set\r\nThe flag `secure` is set\r\nThe flag `httponly` is set",
+      "text_en": "Steps to reproduce\r\n\r\n1. Login to your website\r\n2. Open dev console on the \"Application\" tab\r\n3. Find session cookie\r\n\r\nExpected results:\r\n\r\nThe flag `SameSite=Lax/Strict` is set\r\nThe flag `secure` is set\r\nThe flag `httponly` is set",
+      "text_ru": "Шаги для воспроизведения\r\n\r\n1. Выполните вход на сайте\r\n2. Откройте консоль разработчика на вкладке \"Application\"\r\n3. Найдите сессионную куку\r\n\r\nОжидаемый результат:\r\n\r\nУстановлен флаг `SameSite=Lax/Strict`\r\nУстановлен флаг `secure`\r\nУстановлен флаг `httponly`"
     }
   },
   {
@@ -3667,9 +3663,9 @@
       "title": "Test for CORS misconfiguration",
       "title_en": "Test for CORS misconfiguration",
       "title_ru": "Тест безопасности CORS",
-      "text": "Steps to reproduce:\r\n\r\n1. Open linux terminal\r\n2. Execute `curl -s -I -H \"Origin: evil.com\" -X GET https://<your_app_here> | grep \"evil.com\"`\r\n\r\nExpected result: \r\n\r\n* There is no response header with `evil.com` domain",
-      "text_en": "Steps to reproduce:\r\n\r\n1. Open linux terminal\r\n2. Execute `curl -s -I -H \"Origin: evil.com\" -X GET https://<your_app_here> | grep \"evil.com\"`\r\n\r\nExpected result: \r\n\r\n* There is no response header with `evil.com` domain",
-      "text_ru": "Шаги для воспроизведения:\r\n\r\n1. Откройте линукс терминал\r\n2. Выполните `curl -s -I -H \"Origin: evil.com\" -X GET https://<your_app_here> | grep \"evil.com\"`\r\n\r\nОжидаемый результат: \r\n\r\n* В ответе от сервера вы не видите заголовка с доменом `evil.com`"
+      "text": "Steps to reproduce:\r\n\r\n1. Open linux terminal\r\n2. Execute `curl -s -I -H \"Origin: evil.com\" -X GET https://<your_app_here> | grep \"evil.com\"`\r\n\r\nExpected result: \r\n\r\nThere is no response header with `evil.com` domain",
+      "text_en": "Steps to reproduce:\r\n\r\n1. Open linux terminal\r\n2. Execute `curl -s -I -H \"Origin: evil.com\" -X GET https://<your_app_here> | grep \"evil.com\"`\r\n\r\nExpected result: \r\n\r\nThere is no response header with `evil.com` domain",
+      "text_ru": "Шаги для воспроизведения:\r\n\r\n1. Откройте линукс терминал\r\n2. Выполните `curl -s -I -H \"Origin: evil.com\" -X GET https://<your_app_here> | grep \"evil.com\"`\r\n\r\nОжидаемый результат: \r\n\r\nВ ответе от сервера вы не видите заголовка с доменом `evil.com`"
     }
   },
   {
@@ -3679,9 +3675,9 @@
       "title": "Test file/directory exposure",
       "title_en": "Test file/directory exposure",
       "title_ru": "Тестирование раскрытия файлов/каталогов",
-      "text": "Steps to reproduce:\r\n\r\n1. Open your app repository at corporate gitlab/bitbucket/whatever you use for storing the source code\r\n2. Collect all file/folder names \r\n3. Try to directly access them in your browser (open tabs like https://company.com/README.md)\r\n\r\nExpected result: \r\n\r\n* There is no files/directories exposures (You are not able to get any content of such files/folders except for the allowed application paths)",
-      "text_en": "Steps to reproduce:\r\n\r\n1. Open your app repository at corporate gitlab/bitbucket/whatever you use for storing the source code\r\n2. Collect all file/folder names \r\n3. Try to directly access them in your browser (open tabs like https://company.com/README.md)\r\n\r\nExpected result: \r\n\r\n* There is no files/directories exposures (You are not able to get any content of such files/folders except for the allowed application paths)",
-      "text_ru": "Шаги для воспроизведения:\r\n\r\n1. Откройте репозиторий приложения на корпоративном gitlab/bitbucket/иное, что вы используете для хранения исходного кода.\r\n2. Соберите все имена файлов/папок \r\n3. Попробуйте получить к ним доступ в браузере по прямым ссылкам (например откройте во вкладке https://company.com/README.md).\r\n\r\nОжидаемый результат: \r\n\r\n* Нет раскрытия файлов/каталогов (Вы не можете получить содержимое таких файлов/каталогов, за исключением разрешенных путей приложения)"
+      "text": "Steps to reproduce:\r\n\r\n1. Open your app repository at corporate gitlab/bitbucket/whatever you use for storing the source code\r\n2. Collect all file/folder names \r\n3. Try to directly access them in your browser (open tabs like https://company.com/README.md)\r\n\r\nExpected result: \r\n\r\nThere is no files/directories exposures (You are not able to get any content of such files/folders except for the allowed application paths)",
+      "text_en": "Steps to reproduce:\r\n\r\n1. Open your app repository at corporate gitlab/bitbucket/whatever you use for storing the source code\r\n2. Collect all file/folder names \r\n3. Try to directly access them in your browser (open tabs like https://company.com/README.md)\r\n\r\nExpected result: \r\n\r\nThere is no files/directories exposures (You are not able to get any content of such files/folders except for the allowed application paths)",
+      "text_ru": "Шаги для воспроизведения:\r\n\r\n1. Откройте репозиторий приложения на корпоративном gitlab/bitbucket/иное, что вы используете для хранения исходного кода.\r\n2. Соберите все имена файлов/папок \r\n3. Попробуйте получить к ним доступ в браузере по прямым ссылкам (например откройте во вкладке https://company.com/README.md).\r\n\r\nОжидаемый результат: \r\n\r\nНет раскрытия файлов/каталогов (Вы не можете получить содержимое таких файлов/каталогов, за исключением разрешенных путей приложения)"
     }
   },
   {
@@ -3691,9 +3687,9 @@
       "title": "Authorization is working",
       "title_en": "Authorization is working",
       "title_ru": "Авторизация работает",
-      "text": "Disclaimer\r\n\r\nWe will use Firefox browser in this example. You may use another browser or a proxy tool like Burp suite or Postman.\r\n\r\nSteps to reproduce:\r\n\r\n1. Login to your app using your user (`user1`) credentials in a normal browser window\r\n2. Login to your app using another user (`user2`) credentials in a private browser window\r\n3. Copy user2 session/jwt token/auth header\r\n4. Switch back to the normal browser window and open dev tools (`F12`).\r\nOn the `Network` tab you may find your request and edit it via `Edit and resend` mouse context menu.\r\n5. Put there your user2 session/jwt token/auth header and resend the request\r\n\r\nExpected result: \r\n\r\n* There is no impact to user1 (you can not read/create/modify/delete his data)",
-      "text_en": "Disclaimer\r\n\r\nWe will use Firefox browser in this example. You may use another browser or a proxy tool like Burp suite or Postman.\r\n\r\nSteps to reproduce:\r\n\r\n1. Login to your app using your user (`user1`) credentials in a normal browser window\r\n2. Login to your app using another user (`user2`) credentials in a private browser window\r\n3. Copy user2 session/jwt token/auth header\r\n4. Switch back to the normal browser window and open dev tools (`F12`).\r\nOn the `Network` tab you may find your request and edit it via `Edit and resend` mouse context menu.\r\n5. Put there your user2 session/jwt token/auth header and resend the request\r\n\r\nExpected result: \r\n\r\n* There is no impact to user1 (you can not read/create/modify/delete his data)",
-      "text_ru": "Disclaimer\r\n\r\nВ этом примере мы будем использовать браузер Firefox. \r\nВы можете использовать другой браузер или прокси-инструмент, например, Burp suite или Postman.\r\n\r\nШаги для воспроизведения:\r\n\r\n1. Войдите в приложение, используя учетные данные пользователя (`user1`) в обычном окне браузера.\r\n2. Войдите в приложение, используя учетные данные другого пользователя (`user2`) в приватном окне браузера.\r\n3. Скопируйте сессию/jwt token/auth header пользователя user2.\r\n4. Переключитесь обратно в обычное окно браузера и откройте dev tools (`F12`).\r\nНа вкладке `Network` найдите свой запрос, который хотите протестировать и выберите в контекстном меню мыши `Edit and resend`.\r\n5. Поместите туда данные пользователя user2 (session/jwt token/auth header) и повторно отправьте запрос.\r\n\r\nОжидаемый результат: \r\n\r\n* Нет никакого воздействия на user1 (вы не можете читать/создавать/изменять/удалять его данные)"
+      "text": "Disclaimer\r\n\r\nWe will use Firefox browser in this example. You may use another browser or a proxy tool like Burp suite or Postman.\r\n\r\nSteps to reproduce:\r\n\r\n1. Login to your app using your user (`user1`) credentials in a normal browser window\r\n2. Login to your app using another user (`user2`) credentials in a private browser window\r\n3. Copy user2 session/jwt token/auth header\r\n4. Switch back to the normal browser window and open dev tools (`F12`).\r\nOn the `Network` tab you may find your request and edit it via `Edit and resend` mouse context menu.\r\n5. Put there your user2 session/jwt token/auth header and resend the request\r\n\r\nExpected result: \r\n\r\nThere is no impact to user1 (you can not read/create/modify/delete his data)",
+      "text_en": "Disclaimer\r\n\r\nWe will use Firefox browser in this example. You may use another browser or a proxy tool like Burp suite or Postman.\r\n\r\nSteps to reproduce:\r\n\r\n1. Login to your app using your user (`user1`) credentials in a normal browser window\r\n2. Login to your app using another user (`user2`) credentials in a private browser window\r\n3. Copy user2 session/jwt token/auth header\r\n4. Switch back to the normal browser window and open dev tools (`F12`).\r\nOn the `Network` tab you may find your request and edit it via `Edit and resend` mouse context menu.\r\n5. Put there your user2 session/jwt token/auth header and resend the request\r\n\r\nExpected result: \r\n\r\nThere is no impact to user1 (you can not read/create/modify/delete his data)",
+      "text_ru": "Disclaimer\r\n\r\nВ этом примере мы будем использовать браузер Firefox. \r\nВы можете использовать другой браузер или прокси-инструмент, например, Burp suite или Postman.\r\n\r\nШаги для воспроизведения:\r\n\r\n1. Войдите в приложение, используя учетные данные пользователя (`user1`) в обычном окне браузера.\r\n2. Войдите в приложение, используя учетные данные другого пользователя (`user2`) в приватном окне браузера.\r\n3. Скопируйте сессию/jwt token/auth header пользователя user2.\r\n4. Переключитесь обратно в обычное окно браузера и откройте dev tools (`F12`).\r\nНа вкладке `Network` найдите свой запрос, который хотите протестировать и выберите в контекстном меню мыши `Edit and resend`.\r\n5. Поместите туда данные пользователя user2 (session/jwt token/auth header) и повторно отправьте запрос.\r\n\r\nОжидаемый результат: \r\n\r\nНет никакого воздействия на user1 (вы не можете читать/создавать/изменять/удалять его данные)"
     }
   },
   {
@@ -3703,9 +3699,9 @@
       "title": "Test for resource takeover",
       "title_en": "Test for resource takeover",
       "title_ru": "Тест на угон ресурса",
-      "text": "In a common case you need to check, that something (DNS record, website link) is still pointing to an existing resource (NS serve, social network profile, IP address).\r\nIf something is pointing to non - existing resource and you can register it - your resource is vulnerable to takeover attack.\r\n\r\n**Steps to reproduce (Social network example):**\r\n\r\n1. Visit your website\r\n2. Follow social network links\r\n\r\nExpected result:\r\n\r\n* All social network profiles exist\r\n\r\n\r\n**Steps to reproduce (DNS record):**\r\n\r\n1. Execute the following command in terminal: `dig yourdnsrecord.com NS`\r\n2. Execute the following command in terminal: `dig yourdnsrecord.com CNAME`\r\n\r\n\r\nExpected result:\r\n\r\n* There is no NXDOMAIN / SERVFAIL status",
-      "text_en": "In a common case you need to check, that something (DNS record, website link) is still pointing to an existing resource (NS serve, social network profile, IP address).\r\nIf something is pointing to non - existing resource and you can register it - your resource is vulnerable to takeover attack.\r\n\r\n**Steps to reproduce (Social network example):**\r\n\r\n1. Visit your website\r\n2. Follow social network links\r\n\r\nExpected result:\r\n\r\n* All social network profiles exist\r\n\r\n\r\n**Steps to reproduce (DNS record):**\r\n\r\n1. Execute the following command in terminal: `dig yourdnsrecord.com NS`\r\n2. Execute the following command in terminal: `dig yourdnsrecord.com CNAME`\r\n\r\n\r\nExpected result:\r\n\r\n* There is no NXDOMAIN / SERVFAIL status",
-      "text_ru": "В общем случае вам нужно проверить, что ваш ресурс (запись DNS, ссылка на веб-сайт) все еще указывает на существующий ресурс (сервер NS, профиль социальной сети, IP-адрес).\r\nЕсли ваш ресурс указывает на несуществующий ресурс и вы можете это зарегистрировать - ваш ресурс уязвим для атаки с захватом.\r\n\r\nШаги для воспроизведения (пример социальной сети):\r\n\r\n1. Посетите свой веб-сайт через браузер.\r\n2. Переходите по ссылкам на социальные сети.\r\n\r\nОжидаемый результат:\r\n\r\n* Все профили в социальных сетях существуют\r\n\r\n\r\nШаги для воспроизведения (запись DNS):\r\n\r\n1. Выполните в терминале следующую команду: `dig yourdnsrecord.com NS`\r\n2. Выполните в терминале следующую команду: `dig yourdnsrecord.com CNAME`\r\n\r\n\r\nОжидаемый результат:\r\n\r\n* Нет статуса NXDOMAIN / SERVFAIL"
+      "text": "In a common case you need to check, that something (DNS record, website link) is still pointing to an existing resource (NS serve, social network profile, IP address).\r\nIf something is pointing to non - existing resource and you can register it - your resource is vulnerable to takeover attack.\r\n\r\n**Steps to reproduce (Social network example):**\r\n\r\n1. Visit your website\r\n2. Follow social network links\r\n\r\nExpected result:\r\n\r\nAll social network profiles exist\r\n\r\n\r\n**Steps to reproduce (DNS record):**\r\n\r\n1. Execute the following command in terminal: `dig yourdnsrecord.com NS`\r\n2. Execute the following command in terminal: `dig yourdnsrecord.com CNAME`\r\n\r\n\r\nExpected result:\r\n\r\nThere is no NXDOMAIN / SERVFAIL status",
+      "text_en": "In a common case you need to check, that something (DNS record, website link) is still pointing to an existing resource (NS serve, social network profile, IP address).\r\nIf something is pointing to non - existing resource and you can register it - your resource is vulnerable to takeover attack.\r\n\r\n**Steps to reproduce (Social network example):**\r\n\r\n1. Visit your website\r\n2. Follow social network links\r\n\r\nExpected result:\r\n\r\nAll social network profiles exist\r\n\r\n\r\n**Steps to reproduce (DNS record):**\r\n\r\n1. Execute the following command in terminal: `dig yourdnsrecord.com NS`\r\n2. Execute the following command in terminal: `dig yourdnsrecord.com CNAME`\r\n\r\n\r\nExpected result:\r\n\r\nThere is no NXDOMAIN / SERVFAIL status",
+      "text_ru": "В общем случае вам нужно проверить, что ваш ресурс (запись DNS, ссылка на веб-сайт) все еще указывает на существующий ресурс (сервер NS, профиль социальной сети, IP-адрес).\r\nЕсли ваш ресурс указывает на несуществующий ресурс и вы можете это зарегистрировать - ваш ресурс уязвим для атаки с захватом.\r\n\r\nШаги для воспроизведения (пример социальной сети):\r\n\r\n1. Посетите свой веб-сайт через браузер.\r\n2. Переходите по ссылкам на социальные сети.\r\n\r\nОжидаемый результат:\r\n\r\nВсе профили в социальных сетях существуют\r\n\r\n\r\nШаги для воспроизведения (запись DNS):\r\n\r\n1. Выполните в терминале следующую команду: `dig yourdnsrecord.com NS`\r\n2. Выполните в терминале следующую команду: `dig yourdnsrecord.com CNAME`\r\n\r\n\r\nОжидаемый результат:\r\n\r\nНет статуса NXDOMAIN / SERVFAIL"
     }
   }
 ]
